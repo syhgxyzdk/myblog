@@ -1,9 +1,12 @@
 ---
 layout: default
-title: my Blog
 ---
-{{ page.title }}
-latest blogs
-{% for post in site.posts %}
-{{ post.date | date_to_string }} {{ post.title }}
-{% endfor %}
+<section role="banner">
+  <img src="/img/banner.jpg" />
+</section>
+
+<section class="content">
+  <p>
+  Welcome to Dakang's Blog! Please, check out my <a href="/portfolio/">Portfolio</a> to see my work.
+  </p>
+</section>
