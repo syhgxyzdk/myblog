@@ -1,6 +1,6 @@
 ---
 layout: default
-title: python match CHS
+title: linux 文件压缩
 ---
 ######## 文件压缩 ########
 .tar.gz 网上流行格式
