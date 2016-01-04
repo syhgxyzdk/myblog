@@ -4,7 +4,7 @@
   <head>
     <meta charset=utf-8 />
     <title>
-       my Blog |  Dakangz
+       python match CHS |  Dakangz
     </title>
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
@@ -23,18 +23,25 @@
               </li>
             </ul>
           </nav>
-          <h2>my Blog</h2>
-<p>最新文章</p>
-<ul>
-    
-        <li>04 Jan 2016 <a href="/myblog/2016/01/04/test.html">python match CHS</a>
-</li>
-    
-        <li>04 Jan 2016 <a href="/myblog/2016/01/04/python-match-CHS.html">python match CHS</a>
-</li>
-    
-    </ul>
-
+          ######## 文件压缩 ########
+.tar.gz 网上流行格式
+先把一堆文件打包成.tar, 然后再压缩成gz.
+******************
+gzip (.gz files)
+gzip的压缩比非常惊人,
+这也是此命令一直存在的原因.
+只能压缩文件,不能压缩目录
+且不能保留源文件
+gunzip <file> 解压缩
+gzip -d <file> 解压缩
+******************
+tar 可以打包目录, 注意不是直接压缩
+-c 产生打包文件,必选
+-z 打包并压缩.
+-f 指定文件名,必选
+-v 显示详细信息,可选
+-x 解压缩
+tar -zcf <打包后的文件名> <目录文件>
           <footer>
             <p>
               QQ: 450070816
